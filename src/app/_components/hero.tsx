@@ -34,7 +34,6 @@ export function Hero() {
               Oferecemos os melhores serviços para garantir o bem-estar e a felicidade do seu amigo de quatro patas.
             </p>
 
-
             <a
               data-aos="fade-up"
               data-aos-delay="500"
@@ -80,7 +79,6 @@ export function Hero() {
         </article>
 
       </div>
-
 
     </section>
   )

@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Pet Shop",
   description: "Pet Shop feito em next",
+  icons: {
+    icon: '../../src/app/favicon.ico', // Altere o caminho aqui
+  },
 };
 
 export default function RootLayout({
