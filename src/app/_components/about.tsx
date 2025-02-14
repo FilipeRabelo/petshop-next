@@ -1,6 +1,7 @@
 import Image from "next/image";
 import about1Img from '../../../public/about-1.png'
 import about2Img from '../../../public/about-2.png'
+import { Check } from "lucide-react";
 
 
 export function About() {
@@ -46,9 +47,15 @@ export function About() {
           </p>
 
           <ul className="space-y-4">
-            <li>No mercado desde 2005</li>
-            <li>Mais de 10 veterinários especializados</li>
-            <li>Qualidade e cuidado em primeiro lugar</li>
+            <li className="flex items-center gap-2">
+              <Check className="text-red-500"/>No mercado desde 2005
+            </li>
+            <li className="flex items-center gap-2">
+              <Check className="text-red-500"/>Mais de 10 veterinários especializados
+            </li>
+            <li className="flex items-center gap-2">
+              <Check className="text-red-500"/>Qualidade e cuidado em primeiro lugar
+            </li>
           </ul>
 
         </div>
