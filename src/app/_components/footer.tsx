@@ -1,7 +1,7 @@
 import golden from '../../../public/golden.png'
 import royal from '../../../public/royal.png'
 import primier from '../../../public/primier.png'
-import whiskas from'../../../public/whiskas.png'
+import whiskas from '../../../public/whiskas.png'
 import natural from '../../../public/natural.png'
 import Image from 'next/image'
 import { FacebookLogo, InstagramLogo, YoutubeLogo } from '@phosphor-icons/react/dist/ssr'
@@ -22,9 +22,10 @@ export function Footer() {
       <div className='container mx-auto px-4'>
 
         <div className='border-b border-white/20 pb-8'>
-          <h4 className='text-3xl font-semibold mb-8 text-center'>Nossos parceiros</h4>
+          <h4 className='text-3xl font-semibold mb-8 text-center' data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">Nossos parceiros</h4>
 
-          <div className='grid grid-cols-2 lg:grid-cols-6 gap-8'>
+          <div className='grid grid-cols-2 lg:grid-cols-6 gap-8' data-aos="zoom-up">
             {brands.map((item, index) => (
               <div key={index} className='bg-white p-4 rounded-lg flex items-center justify-center'>
                 <Image
@@ -49,7 +50,7 @@ export function Footer() {
           <div>
             <h3 className='text-2xl font-semibold mb-2'>Pet Shop</h3>
             <p className='mb-4'>Cuidando do seu melhor amigo com amor e dedicação</p>
-            <a 
+            <a
               data-aos="fade-up"
               data-aos-delay="500"
               target='_blank'
@@ -70,16 +71,25 @@ export function Footer() {
           <div>
             <h3 className='text-2xl font-semibold mb-2'>Redes sociais</h3>
             <div className='flex gap-4'>
-              <a href="">
-                <FacebookLogo className='w-8 h-8'/>
+              <a
+                href="#"
+                target='_blank'
+              >
+                <FacebookLogo className='w-8 h-8' />
               </a>
 
-              <a href="">
+              <a
+                href="#"
+                target='_blank'
+              >
                 <InstagramLogo className='w-8 h-8' />
               </a>
-              
-              <a href="">
-                <YoutubeLogo className='w-8 h-8'/>
+
+              <a
+                href="#"
+                target='_blank'
+              >
+                <YoutubeLogo className='w-8 h-8' />
               </a>
             </div>
           </div>

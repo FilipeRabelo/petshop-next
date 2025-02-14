@@ -53,6 +53,8 @@ export function Hero() {
               <div className='flex mt-4'>
                 <div className='w-32 hidden lg:block'>
                   <Image
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
                     src={catImg}
                     alt="Foto do gato"
                     quality={100}
@@ -66,6 +68,8 @@ export function Hero() {
 
           <div className="hidden md:block h-full relative">
             <Image
+              data-aos="fade-up"
+              data-aos-delay="500"
               src={dogImg}
               alt='Foto do dog'
               className='object-contain'

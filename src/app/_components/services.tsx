@@ -65,7 +65,7 @@ export function Services() {
 
   return (
     <section className="bg-white py-16">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4" data-aos="flip-down">
 
         <h2 className="text-4xl font-bold mb-12">Serviços</h2>
 
@@ -105,7 +105,7 @@ export function Services() {
                         data-aos="fade-up"
                         data-aos-delay="500"
                         target='_blank'
-                        href={`https://wa.me/5531982942423?text=Olá vim pelo site e gostaria de mais informações`}
+                        href={`https://wa.me/5531982942423?text=Olá vim pelo site e gostaria de mais informações sobre ${item.title}`}
 
                         className='flex items-center justify-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300'
                       >

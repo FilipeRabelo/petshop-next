@@ -15,6 +15,8 @@ export function About() {
           <div className="relative">
             <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
               <Image
+                data-aos="fade-up"
+                data-aos-delay="500"
                 src={about1Img}
                 alt="Foto do cachorro"
                 fill
@@ -27,6 +29,8 @@ export function About() {
             <div className="absolute w-40 h-40 right-4 -bottom-8 border-4 *
               overflow-hidden rounded-lg border-white">
               <Image
+                data-aos="fade-down"
+                data-aos-delay="500"
                 src={about2Img}
                 alt="Foto do cachorro 2"
                 fill
@@ -37,7 +41,7 @@ export function About() {
           </div>
 
           {/* conteúdo */}
-          <div className="space-y-6 mt-10">
+          <div className="space-y-6 mt-10" data-aos="fade-up-left">
             <h2 className="text-4xl font-bold">
               Sobre
             </h2>
