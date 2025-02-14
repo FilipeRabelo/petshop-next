@@ -17,7 +17,7 @@ const services = [
     linkText: 'Olá, vi no site sobre Banho e tosa e gostaria de mais informações.'
   },
   {
-    title: "Consulta Veterinária",
+    title: "Consulta",
     description: "Oferece atendimento clínico básico ou especializado para cuidar da saúde do animal. Inclui diagnóstico de doenças, aplicação de vacinas obrigatórias.",
     duration: "1h",
     price: "$45",
@@ -45,7 +45,7 @@ const services = [
 export function Services() {
 
   const [emblaRef, emblaApi] = useEmblaCarousel({
-    loop: true,
+    loop: false,
     align: 'start',
     slidesToScroll: 1,
     breakpoints: {
@@ -99,7 +99,7 @@ export function Services() {
 
                         className='flex items-center justify-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300'  
                       >
-                        Entrar em contato
+                        Contato
                         <WhatsappLogo className='w-5 h-5'/>
                       </a>
                     </div>
