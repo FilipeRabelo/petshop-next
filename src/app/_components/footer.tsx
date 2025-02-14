@@ -25,7 +25,7 @@ export function Footer() {
           <h4 className='text-3xl font-semibold mb-8 text-center' data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom">Nossos parceiros</h4>
 
-          <div className='grid grid-cols-2 lg:grid-cols-6 gap-8' data-aos="zoom-up">
+          <div className='grid grid-cols-2 lg:grid-cols-6 gap-8' data-aos="zoom-up" data-aos-delay="600">
             {brands.map((item, index) => (
               <div key={index} className='bg-white p-4 rounded-lg flex items-center justify-center'>
                 <Image

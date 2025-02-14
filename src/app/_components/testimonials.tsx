@@ -56,7 +56,7 @@ export function Testimonials() {
         <h2 className="text-4xl font-bold text-center mb-12">Depoimentos dos nossos clientes</h2>
 
         {/* carrousel */}
-        <div className="relative max-w-4xl mx-auto" data-aos="zoom-out">  {/* mx-auto para centralizar*/}
+        <div className="relative max-w-4xl mx-auto" data-aos="zoom-out" data-aos-delay="500">  {/* mx-auto para centralizar*/}
 
           <div className='overflow-hidden' ref={emblaRef}>
             <div className='flex'>
