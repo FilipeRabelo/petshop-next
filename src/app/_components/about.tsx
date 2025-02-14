@@ -12,7 +12,7 @@ export function About() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-          <div className="relative">
+          <div className="relative" data-aos="fade-down" data-aos-delay="500">
             <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
               <Image
                 data-aos="fade-up"
@@ -28,9 +28,7 @@ export function About() {
 
             <div className="absolute w-40 h-40 right-4 -bottom-8 border-4 *
               overflow-hidden rounded-lg border-white">
-              <Image
-                data-aos="fade-down"
-                data-aos-delay="500"
+              <Image                
                 src={about2Img}
                 alt="Foto do cachorro 2"
                 fill
@@ -78,6 +76,8 @@ export function About() {
               </a>
 
               <a
+                data-aos="fade-up"
+                data-aos-delay="500"
                 target='_blank'
                 href='https://www.google.com/maps?q=Rua+Ouricuri,+140+-+Floramar,+Belo+Horizonte+-+MG'
                 className="flex items-center justify-center w-fit gap-2 rounded-md px-4 py-2"
