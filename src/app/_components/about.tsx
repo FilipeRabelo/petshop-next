@@ -12,7 +12,7 @@ export function About() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-          <div className="relative" data-aos="fade-down" data-aos-delay="500">
+          <div className="relative" data-aos="fade-left" data-aos-delay="500">
             <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
               <Image
                 data-aos="fade-up"
@@ -39,7 +39,7 @@ export function About() {
           </div>
 
           {/* conteúdo */}
-          <div className="space-y-6 mt-10" data-aos="fade-up-left">
+          <div className="space-y-6 mt-10" data-aos="fade-up-right">
             <h2 className="text-4xl font-bold">
               Sobre
             </h2>
