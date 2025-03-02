@@ -359,14 +359,14 @@ const WeatherAndCurrency = () => {
         </div>
 
         {/* Seção do Contador Regressivo */}
-        <div className="bg-white text-black p-4 rounded-lg shadow-md mt-10" data-aos="fade-down" data-aos-duration="3000">
+        <div className="bg-white text-black p-4 rounded-lg shadow-md mt-10" data-aos="fade-left" data-aos-duration="3000">
           <h2 className="text-xl font-bold mb-2">Próxima Atualização</h2>
           <p>{formatTime(timeLeft)}</p> {/* Exibe o tempo restante */}
         </div>
       </div>
 
       {/* Botão de Atualização */}
-      <div className="flex justify-center mt-6">
+      <div className="flex justify-center mt-6" data-aos="fade-up" data-aos-duration="3000">
         <button
           onClick={updateAll}
           disabled={isUpdating}
