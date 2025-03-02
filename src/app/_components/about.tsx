@@ -3,12 +3,18 @@ import about1Img from '../../../public/about-1.png'
 import about2Img from '../../../public/about-2.png'
 import { Check, MapPin } from "lucide-react";
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
-
+// import WeatherAndCurrency from '../_components/WeatherAndCurrency'
 
 export function About() {
-  return (
-    <section className="bg-[#FDF6ec] py-6">
+  return (    
+    <section className="bg-[#FDF6ec] py-6">     
+
       <div className="container px-4 mx-auto">
+
+        {/* <div className="space-y-6 mt-10" data-aos="fade-up-right">
+          <h1>Clima tempo e cotação do dolar</h1>
+          <WeatherAndCurrency />
+        </div> */}
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
@@ -28,7 +34,7 @@ export function About() {
 
             <div className="absolute w-40 h-40 right-4 -bottom-8 border-4 *
               overflow-hidden rounded-lg border-white">
-              <Image                
+              <Image
                 src={about2Img}
                 alt="Foto do cachorro 2"
                 fill
@@ -37,6 +43,8 @@ export function About() {
               />
             </div>
           </div>
+
+        
 
           {/* conteúdo */}
           <div className="space-y-6 mt-10" data-aos="fade-up-right">
